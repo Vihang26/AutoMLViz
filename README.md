@@ -4,7 +4,7 @@ AutoML-Viz is an interactive visualization tool designed to support users in ref
 
 ## Features
 
-##### Multi-granularity Visualization
+### Multi-granularity Visualization
 
 Allows users to monitor the AutoML process, analyze the searched models, and refine the search space in real-time. Users can analyze searched models across three levels of detail:
 
@@ -12,11 +12,11 @@ Allows users to monitor the AutoML process, analyze the searched models, and ref
 2. Hyperpartition
 3. Hyperparameter
 
-##### Workflow Guidance
+### Workflow Guidance
 
 The tool provides a guided workflow for effectively utilizing AutoML.
 
-##### Search Space Refinement
+### Search Space Refinement
 
 Real-time interaction with the search space enables users to adjust AutoML parameters on-the-fly, thereby addressing issues of distrust in automatic results and increasing search budgets.
 
@@ -62,5 +62,9 @@ Users of this tool will be able to:
 5. Relationship between performance and hyperparameters of a selected algorithm is visualized using scatter plots.
 Distribution of hyperparameters is presented as area plots below each scatter plot.
 6. A correlation heatmap shows the correlation between features of the dataset selected from the dropdown.
+
+## Project Timeline
+
+TBD
 
 This repo is an extension of ATMSeer based on the contents of its [research paper](https://arxiv.org/pdf/1902.05009v1.pdf).
