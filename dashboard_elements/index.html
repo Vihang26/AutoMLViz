@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/dashboard_elements/main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>AutoML-Viz</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="left-panel">
+            <div class="panel-a">
+                <div class="panel-header">Datasets</div>
+                <form id="datasets-subpanel">
+                    <div class="form-container">
+                        <select id="dataset-dropdown">
+                            <option value="option1">dry-bean-dataset</option>
+                            <option value="option2">apple-quality-dataset</option>
+                            <option value="option3">diabetes-prediction-dataset</option>
+                            <option value="option4">blood-dataset</option>
+                            <option value="option5">pollution-dataset</option>
+                        </select>
+                        <div class="upload-btn-wrapper">
+                            <button class="btn">+ Upload</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="panel-b">
+                <div class="panel-header">Panel b</div>
+                <div class="panel-b1">
+                    <div class="panel-header">Panel b1</div>
+                </div>
+                <div class="panel-b2">
+                    <div class="panel-header">Panel b2</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="panel-header">Profiler</div>
+            <div class="collapsibles">
+                <button type="button" class="collapsible" id="collapsible1">Correlation Heatmap</button>
+                <button type="button" class="collapsible" id="collapsible2">Algorithms</button>
+                <button type="button" class="collapsible" id="collapsible3">HyperPartitions of</button>
+                <button type="button" class="collapsible" id="collapsible4">HyperParameters of</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
